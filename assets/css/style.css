@@ -79,15 +79,9 @@ header button {
 }
 
 .arrow {
-    vertical-align: middle;
-    padding: 0.2rem 0.2rem 0 0.2rem;
-    font-size: 1vw;
+    padding-right: 0.3rem;
+    font-weight: bolder;
 }
-    
-
-    
-
-
 
 .logo {
     max-width: 10%;
