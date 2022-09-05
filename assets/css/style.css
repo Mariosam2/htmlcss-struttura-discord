@@ -46,11 +46,11 @@ header button {
    
 }
 
-
-img {
+.logo {
     max-width: 10%;
     
 }
+
 
 /* navbar region */
 nav {
@@ -129,6 +129,7 @@ nav ul li a {
     background-color: var(--var-black);
 }
 
+/* footer region */
 
 footer {
     background-color: var(--var-black);
@@ -184,7 +185,6 @@ h2.subtitle {
     font-weight: 400;
 }
 
-/* footer region */
 
 footer ul {
     list-style-type: none;
@@ -206,3 +206,16 @@ footer hr {
     border-color: var(--var-blue);
 }
 
+
+#png_logos{
+    margin-top: 0.8rem;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    
+}
+
+.social {
+    max-width: 15%;
+    
+}
