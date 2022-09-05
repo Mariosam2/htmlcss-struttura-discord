@@ -29,7 +29,7 @@ a {
 }
 
 
-
+/* header */
 header .container {
     display:flex;
     justify-content: space-between;
@@ -60,10 +60,9 @@ button:hover {
     cursor: pointer;
 }
 
-
-
 .blue.shadow:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    
     
 }
 
@@ -120,9 +119,8 @@ header button {
 
 p {
     line-height: 30px;
+    font-size: 1.2rem;
 }
-
-
 
 
 /* navbar region */
@@ -177,7 +175,7 @@ nav ul li a:hover {
 }
 
 .banner .content .title {
-    font-size: 3vw;
+    font-size: 3rem;
 }
 
 .content .caption {
@@ -195,7 +193,6 @@ nav ul li a:hover {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
     padding: 2rem 0 2rem 0;
     margin-bottom: 5rem;
 }
@@ -248,13 +245,11 @@ nav ul li a:hover {
 
 
 [class^="col-"] h1 {
-    font-size: 2.5vw;
+    font-size: 3rem;
     margin-bottom: 2rem;
 }
 
-[class^="col-"] p {
-    font-size: 1vw;
-}
+
 
 
 
@@ -321,7 +316,7 @@ label {
 }
 
 h2.subtitle {
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     font-weight: 400;
 }
