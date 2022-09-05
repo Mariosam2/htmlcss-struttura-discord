@@ -201,7 +201,7 @@ nav ul li a:hover {
     font-size: 2rem;
     width: 60%;
     margin: auto;
-    padding: 1rem;
+    padding: 4rem 1rem;
     background-image: url('../img/stars.svg');
     background-repeat: no-repeat;
     background-size: contain;
