@@ -79,10 +79,13 @@ header button {
 }
 
 .arrow {
+    vertical-align: middle;
     padding: 0.2rem 0.2rem 0 0.2rem;
     font-size: 1vw;
-    vertical-align: middle;
 }
+    
+
+    
 
 
 
