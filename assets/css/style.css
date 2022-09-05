@@ -74,6 +74,11 @@ nav ul li a {
     margin-bottom: 1rem;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /*column's region */
 
 .col-8 {
@@ -85,9 +90,26 @@ nav ul li a {
     width: calc((100%/12)*4);
 }
 
+.col-2 {
+    width: calc((100%/12)*2);
+}
+
+.col-12 {
+    width: calc((100%/12)*12);
+}
+
+.col-12.footer {
+    display: flex;
+    justify-content:space-between;
+}
+
 
 .debug [class^="col-"] {
     background-color: red;
-    height: 500px;
+    height: 100px;
     border: 1px solid;
+}
+
+.debug header, .debug footer {
+    background-color: var(--var-black);
 }
