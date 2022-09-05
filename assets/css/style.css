@@ -24,6 +24,10 @@ img {
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 
 header .container {
@@ -58,32 +62,48 @@ button:hover {
 
 
 
-.white:hover {
-    color: var(--var-blue);
-}
-
-.black:hover {
-    background-color: #36393f;
-}
-
 .blue.shadow:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
     
 }
 
-
 .blue {
     background-color: var(--var-blue);
     color: white;
+    
 }
-.white {
-    background-color: white;
+
+.blue a, .black a {
+    color: white;
+}
+.black:hover {
+    background-color: #36393f;
 }
 
 .black {
     background-color: var(--var-black);
-    color: white;
 }
+
+.white {
+    background-color: white;
+    
+    
+}
+
+.white:hover {
+    color: var(--var-blue);
+}
+
+.white a{
+    color: black;
+}
+
+.white a:hover {
+    color: var(--var-blue);
+}
+
+
+
 
 header button {
     height: 20%;
@@ -129,7 +149,6 @@ nav ul li  {
 }
 
 nav ul li a {
-    text-decoration: none;
     color: white;
     padding: 1rem;
     border-radius: 18px;
@@ -138,8 +157,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: white;
     color: var(--var-blue);
-    
-    transition: ease-out 0.2s;
+
 }
 
 /* main */
@@ -194,10 +212,6 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-}
-
-.waves {
-    background-color: var(--bg-white);
 }
 
 
@@ -342,9 +356,13 @@ footer hr {
     
 }
 
-.social {
-    max-width: 15%;
+#png_logos a {
+    width: 15%;
     
+}
+.social {
+    max-width: 100%;
+    vertical-align: middle;
 }
 
 .social:hover {
