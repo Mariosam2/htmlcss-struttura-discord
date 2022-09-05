@@ -1,6 +1,6 @@
 :root {
     --bg-white: #F6F6F6;
-    --var-blue: #7289DA;
+    --var-blue: #7983f5;
     --var-black: #23272A;
 
 }
@@ -45,18 +45,31 @@ header {
 /* buttons */
 button {
     border: none;
-    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
-    border-radius: 18px;
-    font-size: 0.8vw;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    font-size: 20px;
     margin-left: 1rem;
+    border-radius: 18px;
     
 }
 
 button:hover {
-    scale: 1.1;
     cursor: pointer;
 }
 
+
+
+.white:hover {
+    color: var(--var-blue);
+}
+
+.black:hover {
+    background-color: #36393f;
+}
+
+.blue.shadow:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    
+}
 
 
 .blue {
@@ -131,7 +144,7 @@ nav ul li a:hover {
 
 /* main */
 .banner {
-    padding: 15rem 0 12rem 0;
+    padding: 15rem 0 8rem 0;
     background-image: url('../img/jumbo.png');
     position: relative;
     background-size: cover;
@@ -181,6 +194,10 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+.waves {
+    background-color: var(--bg-white);
 }
 
 
@@ -328,4 +345,9 @@ footer hr {
 .social {
     max-width: 15%;
     
+}
+
+.social:hover {
+    scale: 1.1;
+    cursor: pointer;
 }
