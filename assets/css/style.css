@@ -73,7 +73,8 @@ button:hover {
     
 }
 
-.blue a, .black a {
+
+.blue a, .black a{
     color: white;
 }
 .black:hover {
@@ -88,10 +89,6 @@ button:hover {
     background-color: white;
     
     
-}
-
-.white:hover {
-    color: var(--var-blue);
 }
 
 .white a{
